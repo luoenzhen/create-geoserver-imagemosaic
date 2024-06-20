@@ -1,0 +1,48 @@
+{
+    "geoserver": {
+      "url": "https://geoserver-test.tern.org.au",
+      "workspace": "landscapes",
+      "store": "modis-phenology"
+    },
+    "data_url": "https://data-test.tern.org.au/landscapes/modis-phenology",
+    "cog_files_test": [
+      {
+        "folder": "1_Start_of_the_growing_season",
+        "filename_example": "SGS_2003_Season1_cog.tif"
+      }
+    ],
+    "cog_files": [
+      {
+        "folder": "1_Start_of_the_growing_season",
+        "filename_example": "SGS_2003_Season1_cog.tif"
+      },
+      {
+        "folder": "2_Peak_of_the_growing_season",
+        "filename_example": "PGS_2003_Season1_cog.tif"
+      },
+      {
+        "folder": "3_End_of_the_growing_season",
+        "filename_example": "EGS_2003_Season1_cog.tif"
+      },
+      {
+        "folder": "4_Length_of_the_growing_season",
+        "filename_example": "LGS_2003_Season1_cog.tif"
+      },
+      {
+        "folder": "5_Minimum_EVI_value_before_PGS",
+        "filename_example": "Minimum_EVI_1_2003_Season1_cog.tif"
+      },
+      {
+        "folder": "6_Minimum_EVI_value_after_PGS",
+        "filename_example": "Minimum_EVI_2_2003_Season1_cog.tif"
+      },
+      {
+        "folder": "7_Peak_EVI_value_of_the_growing_season",
+        "filename_example": "Peak_EVI_2003_Season1_cog.tif"
+      },
+      {
+        "folder": "8_Integral_EVI_value_of_the_growing_season",
+        "filename_example": "Integral_EVI_2003_Season1_cog.tif"
+      }
+    ]
+  }
